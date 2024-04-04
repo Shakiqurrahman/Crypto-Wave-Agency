@@ -12,18 +12,6 @@ export const router = createBrowserRouter([
         path: "/",
         element: <HomePage />,
       },
-      {
-        path: "/events",
-        element: <div>Hello From Event Page</div>,
-      },
-      {
-        path: "/about",
-        element: <div>Hello From About Page</div>,
-      },
-      {
-        path: "/contact",
-        element: <div>Hello From Contact Page</div>,
-      },
     ],
   },
   {
