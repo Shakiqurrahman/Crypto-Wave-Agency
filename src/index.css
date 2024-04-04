@@ -13,6 +13,8 @@ body {
   overflow-x: hidden;
   background: #030014;
   color: white;
+}
+* {
   scroll-behavior: smooth;
 }
 
@@ -20,6 +22,22 @@ body {
 
 .max-width {
   @apply max-w-[1280px] mx-auto px-4;
+}
+
+.animation-moving {
+  animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 
@@ -88,6 +106,7 @@ body {
   transition: all 0.4s ease-in-out;
   transform: rotate(45deg);
 }
+
 
 @media (768px >= width) {
   .nav-links {

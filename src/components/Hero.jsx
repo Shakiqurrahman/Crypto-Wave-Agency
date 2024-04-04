@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section>
+    <section className="max-width">
       <div className="absolute top-0 left-0 z-[-2] h-screen w-screen bg-main bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       <div className="flex flex-col justify-center  sm:mt-32">
         <div>
@@ -14,7 +14,7 @@ const Hero = () => {
           </h2>
         </div>
         <div className="mt-14 sm:mt-24 w-full bg-gradient-to-r from-secondary via-current to-primary p-1 rounded-2xl">
-          <div className="bg-main p-4 py-10 sm:p-14 rounded-2xl shadow-2xl shadow-primary/30">
+          <div className="bg-main/90 p-4 py-10 sm:p-14 rounded-2xl shadow-2xl shadow-primary/30">
             <h2 className="text-center text-white font-semibold text-2xl md:text-3xl mb-10">
               Powering Global Web3 Growth
             </h2>
