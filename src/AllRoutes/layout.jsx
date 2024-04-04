@@ -1,6 +1,6 @@
 import { Outlet, ScrollRestoration } from "react-router-dom";
-import Header from "../components/shared/Header";
 import Footer from "../components/shared/Footer";
+import Header from "../components/shared/Header";
 
 const Layout = () => {
   return (
@@ -8,9 +8,7 @@ const Layout = () => {
       <div className="h-20 mb-10">
         <Header />
       </div>
-      <div className="max-width">
-        <Outlet />
-      </div>
+      <Outlet />
       <ScrollRestoration />
       <Footer />
     </>
