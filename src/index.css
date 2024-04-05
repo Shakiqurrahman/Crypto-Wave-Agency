@@ -24,7 +24,7 @@ body {
   @apply max-w-[1280px] mx-auto px-4;
 }
 
-.animation-moving {
+/* .animation-moving {
   animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -38,7 +38,7 @@ body {
   100% {
     transform: translateY(0);
   }
-}
+} */
 
 
 /* hamburger menu */

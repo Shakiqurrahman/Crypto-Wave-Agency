@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img from "../assets/about-img.png";
 import Lottie from "lottie-react";
 import ImgGIF from '../assets/about-us.json'
+import leftImg from '../assets/bg-left2.png'
 
 const AboutUs = () => {
   return (
     <section id="about" className="py-16 sm:py-36 relative">
+      <img className="absolute opacity-70 top-0 left-0 -z-10" src={leftImg} alt="" />
       <div className="max-width flex flex-col-reverse md:flex-row items-center justify-center gap-10 sm:gap-6">
         <div className="w-full">
           <h6 className="text-lg sm:text-2xl text-secondary mb-2">About Us</h6>
@@ -16,7 +17,7 @@ const AboutUs = () => {
           <p className="text-[16px] text-dark text-justify mb-6">
             Your premier destination for comprehensive crypto solutions. We
             specialize in providing top-tier services across the Cexs
-            listing,Fundrasied,OTC Deal, Project development and marketing.
+            listing, Fundrasied, OTC Deal, Project development and marketing.
           </p>
           <p className="text-[16px] text-dark text-justify mb-6">
             Crypto Wave is committed to guiding our clients through the
@@ -41,7 +42,6 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="w-full">
-          {/* <img className="w-full mx-auto animation-moving" src={img} alt="" /> */}
           <Lottie className="w-4/5 mx-auto" animationData={ImgGIF}/>
         </div>
       </div>

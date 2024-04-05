@@ -1,14 +1,15 @@
 import React from "react";
 import { FaBuildingShield } from "react-icons/fa6";
-import { MdDesignServices, MdOutlineTimeline } from "react-icons/md";
 import { HiUserGroup } from "react-icons/hi2";
+import { MdDesignServices, MdOutlineTimeline } from "react-icons/md";
 import { SiSlideshare } from "react-icons/si";
-
+import { Link } from "react-router-dom";
+import { FaArrowRight } from "react-icons/fa6";
 
 
 const Services = () => {
   return (
-    <section className="pb-16 sm:pb-36 max-width">
+    <section className="mb-16 sm:mb-36 max-width">
       <h6 className="text-lg sm:text-2xl text-center text-secondary mb-2">
         Services
       </h6>
@@ -29,8 +30,9 @@ const Services = () => {
           <MdDesignServices className="text-5xl text-secondary" />
           <h3 className="text-2xl font-semibold">Design & Development</h3>
           <p className="text-[16px] text-dark text-center">
-            Deliver UX/UI design, website and DAPP development, and blockchain
-            solutions to create functional and user-friendly products.
+            Delivering Graphics Design, UX/UI, Web Design & Development to
+            create functional and user-friendly websites. Let's bring your
+            digital vision to life.
           </p>
         </div>
         <div className="bg-[#110d2ed0] p-10 flex flex-col justify-center items-center space-y-4 rounded-[30px]">
@@ -67,6 +69,17 @@ const Services = () => {
           </p>
         </div>
       </div>
+      <div className="mt-8 sm:mt-12 text-center">
+            <div className="bg-gradient-to-r from-secondary via-current to-primary p-0.5 rounded-[30px] inline-block group hover:bg-gradient-to-l duration-300">
+              <Link
+                to="#contact"
+                className="px-5 py-3 sm:py-[11px] bg-main rounded-[30px] flex items-center gap-2"
+              >
+                Get Started
+                <FaArrowRight className="group-hover:translate-x-1 duration-300"/>
+              </Link>
+            </div>
+          </div>
     </section>
   );
 };
