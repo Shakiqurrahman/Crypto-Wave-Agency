@@ -42,12 +42,12 @@ const Header = () => {
               </li>
             </NavLink>
 
-            <NavLink to="#team">
+            <NavLink to="#services">
               <li
                 className="md:hover:text-primary duration-300"
                 onClick={handleClose}
               >
-                Team
+                Services
               </li>
             </NavLink>
 
@@ -55,20 +55,21 @@ const Header = () => {
               className="md:hover:text-primary duration-300"
               onClick={handleClose}
             >
-              <NavLink to="#project">Projects</NavLink>
+              <NavLink to="#why-us">Why Us</NavLink>
             </li>
             <li
               className="md:hover:text-primary duration-300"
               onClick={handleClose}
             >
-              <NavLink to="#partner">Partner</NavLink>
+              <NavLink to="#team">Our Team</NavLink>
             </li>
             <li
               className="md:hover:text-primary duration-300"
               onClick={handleClose}
             >
-              <NavLink to="#launchpad">Launchpad</NavLink>
+              <NavLink to="#clients-partner">Clients & Partner</NavLink>
             </li>
+  
           </ul>
         </nav>
         <div className="max-[888px]:hidden">

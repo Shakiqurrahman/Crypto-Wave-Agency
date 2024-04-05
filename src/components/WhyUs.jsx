@@ -7,7 +7,7 @@ import img from "../assets/why-us.svg";
 
 const WhyUs = () => {
   return (
-    <section className="mb-16 sm:mb-36 relative">
+    <section id="why-us" className="pt-16 sm:pt-36 relative">
       <img
         className="absolute top-0 md:-top-[90%]  right-0 -z-10"
         src={rightImg}
@@ -21,7 +21,7 @@ const WhyUs = () => {
         <h2 className="text-2xl sm:text-[36px] leading-tight text-center font-bold mb-4 sm:mb-8">
           Your trusted partner for <br /> growth & success in Web3{" "}
         </h2>
-        <div className="mt-20 flex flex-col md:flex-row gap-10 md:gap-6 items-center justify-center">
+        <div className="mt-10 sm:mt-20 flex flex-col md:flex-row gap-10 md:gap-6 items-center justify-center">
           <div className="w-full">
             <img className="w-4/5 mx-auto" src={img} alt="" />
             

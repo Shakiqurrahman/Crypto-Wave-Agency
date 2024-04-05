@@ -5,11 +5,13 @@ import { MdDesignServices, MdOutlineTimeline } from "react-icons/md";
 import { SiSlideshare } from "react-icons/si";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
+import { Tb3DRotate } from "react-icons/tb";
+
 
 
 const Services = () => {
   return (
-    <section className="mb-16 sm:mb-36 max-width">
+    <section id="services" className="pt-16 sm:pt-36 max-width">
       <h6 className="text-lg sm:text-2xl text-center text-secondary mb-2">
         Services
       </h6>
@@ -61,7 +63,7 @@ const Services = () => {
           </p>
         </div>
         <div className="bg-[#110d2ed0] p-10 flex flex-col justify-center items-center space-y-4 rounded-[30px]">
-          <MdOutlineTimeline className="text-5xl text-secondary" />
+          <Tb3DRotate className="text-5xl text-secondary" />
           <h3 className="text-2xl font-semibold">3D Studio</h3>
           <p className="text-[16px] text-dark text-center">
             Hub of creativity and innovation, specializing in crafting stunning

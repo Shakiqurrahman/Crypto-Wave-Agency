@@ -6,7 +6,7 @@ import leftImg from '../assets/bg-left2.png'
 
 const AboutUs = () => {
   return (
-    <section id="about" className="py-16 sm:py-36 relative">
+    <section id="about" className="pt-16 sm:pt-36 relative">
       <img className="absolute opacity-70 top-0 left-0 -z-10" src={leftImg} alt="" />
       <div className="max-width flex flex-col-reverse md:flex-row items-center justify-center gap-10 sm:gap-6">
         <div className="w-full">

@@ -18,6 +18,14 @@ body {
   scroll-behavior: smooth;
 }
 
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
 /* Additonal custom styles  */
 
 .max-width {
