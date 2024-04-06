@@ -1,6 +1,6 @@
 import React from "react";
 
-const ClientContact = () => {
+const ContactForm = () => {
   return (
     <div className=" mx-auto max-w-[800px]">
       <form action="https://formspree.io/f/xjvnpvae" method="post">
@@ -106,4 +106,4 @@ const ClientContact = () => {
   );
 };
 
-export default ClientContact;
+export default ContactForm;

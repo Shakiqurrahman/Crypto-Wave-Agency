@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
-import HomePage from '../pages/HomePage'
+import ContactUsPage from "../pages/ContactUsPage";
 import ErrorPage from "../pages/ErrorPage";
+import HomePage from "../pages/HomePage";
 import Layout from "./layout";
-import ContactUs from "../components/ContactUs";
 
 export const router = createBrowserRouter([
   {
@@ -15,9 +15,8 @@ export const router = createBrowserRouter([
       },
       {
         path: "/contact",
-        element: <ContactUs />,
+        element: <ContactUsPage />,
       },
-      
     ],
   },
   {
