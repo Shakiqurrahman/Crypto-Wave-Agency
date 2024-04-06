@@ -1,19 +1,18 @@
-import React from 'react';
-import Hero from '../components/Hero';
-import AboutUs from '../components/AboutUs';
-import Services from '../components/Services';
-import WhyUs from '../components/WhyUs';
-import ContactUs from '../components/ContactUs';
+import React from "react";
+import AboutUs from "../components/AboutUs";
+import Hero from "../components/Hero";
+import Services from "../components/Services";
+import WhyUs from "../components/WhyUs";
 
 const HomePage = () => {
-    return (
-        <>
-        <Hero />
-        <AboutUs />
-        <Services />
-        <WhyUs />
-        </>
-    );
+  return (
+    <>
+      <Hero />
+      <AboutUs />
+      <Services />
+      <WhyUs />
+    </>
+  );
 };
 
 export default HomePage;

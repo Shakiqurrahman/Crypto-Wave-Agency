@@ -7,7 +7,7 @@ import logo from "/logo.png";
 const Footer = () => {
   return (
     <footer className="mt-40 max-width pb-4">
-      <div className="flex flex-wrap md:justify-between  gap-10 md:gap-0 mb-12">
+      <div className="flex flex-wrap md:justify-between  gap-y-10 gap-x-6 md:gap-0 mb-12">
         <div className="md:w-1/4 text-center">
           <img className="w-28 mx-auto" src={logo} alt="" />
           <h2 className="text-xl text-white font-semibold my-2">
@@ -20,27 +20,27 @@ const Footer = () => {
         </div>
         <div>
           <h4 className="text-xl text-white font-semibold">Quick Links</h4>
-          <ul className="mt-4 space-y-4 text-sm list-disc  px-4">
+          <ul className="mt-4 space-y-3 text-[13px] sm:text-sm list-disc  px-4 text-dark">
             <li className="hover:translate-x-3 hover:text-primary duration-200">
-              <a href="/#about">About Us</a>
+              <Link to="/#about">About Us</Link>
             </li>
             <li className="hover:translate-x-3 hover:text-primary duration-200">
-              <a href="/#services">Our Services</a>
+              <Link to="/#services">Our Services</Link>
             </li>
             <li className="hover:translate-x-3 hover:text-primary duration-200">
-              <a href="/#why-us">Why Us</a>
+              <Link to="/#why-us">Why Us</Link>
             </li>
             <li className="hover:translate-x-3 hover:text-primary duration-200">
-              <a href="/#clients-partner">Clients & Partner</a>
+              <Link to="/#clients-partner">Clients & Partner</Link>
             </li>
             <li className="hover:translate-x-3 hover:text-primary duration-200">
-              <a href="/contact">Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
         <div>
           <h4 className="text-xl text-white font-semibold">Services</h4>
-          <ul className="mt-4 space-y-4 text-sm list-disc  px-4">
+          <ul className="mt-4 space-y-3 text-[13px] sm:text-sm list-disc  px-4 text-dark">
             <li className="hover:translate-x-3 duration-200">
               Foundation Building
             </li>
@@ -61,21 +61,21 @@ const Footer = () => {
           <h4 className="text-xl text-white font-semibold">Follow Us</h4>
           <div className="flex gap-4 mt-6">
             <Link
-              className="size-10 rounded-lg  bg-[#110c2eb3] hover:bg-white hover:text-black duration-300 p-2"
+              className="size-10 rounded-lg  bg-[#191145a9] hover:bg-white hover:text-black duration-300 p-2"
               to="https://t.me/cryptowave_g"
               target="_blank"
             >
               <FaTelegramPlane className="text-2xl " />
             </Link>
             <Link
-              className="size-10 rounded-lg  bg-[#110c2eb3] hover:bg-white hover:text-black duration-300 p-2"
+              className="size-10 rounded-lg  bg-[#191145a9] hover:bg-white hover:text-black duration-300 p-2"
               to="https://t.me/crypto_wave_ann"
               target="_blank"
             >
               <FaTelegramPlane className="text-2xl " />
             </Link>
             <Link
-              className="size-10 rounded-lg  bg-[#110c2eb3] hover:bg-white hover:text-black duration-300 p-2"
+              className="size-10 rounded-lg  bg-[#191145a9] hover:bg-white hover:text-black duration-300 p-2"
               to="https://twitter.com/cryptowave___"
               target="_blank"
             >
@@ -85,7 +85,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="pt-5 border-t border-dark/20">
-        <p className="text-center text-sm text-dark">All rights deserved - Shakiqur 2024</p>
+        <p className="text-center text-[13px] text-dark">Copyright © 2024 Crypto Wave | Developed By <Link to='https://shakiqur-rahman.netlify.app/#' target="_blank" className="text-blue-600">DevIt BD</Link>
+
+</p>
       </div>
     </footer>
   );
