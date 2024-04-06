@@ -11,7 +11,7 @@ import { Tb3DRotate } from "react-icons/tb";
 
 const Services = () => {
   return (
-    <section id="services" className="pt-16 sm:pt-36 max-width">
+    <section id="services" className="pt-20 sm:pt-32 max-width">
       <h6 className="text-lg sm:text-2xl text-center text-secondary mb-2">
         Services
       </h6>
@@ -74,7 +74,7 @@ const Services = () => {
       <div className="mt-8 sm:mt-12 text-center">
             <div className="bg-gradient-to-r from-secondary via-current to-primary p-0.5 rounded-[30px] inline-block group hover:bg-gradient-to-l duration-300">
               <Link
-                to="#contact"
+                to="/contact"
                 className="px-5 py-3 sm:py-[11px] bg-main rounded-[30px] flex items-center gap-2"
               >
                 Get Started

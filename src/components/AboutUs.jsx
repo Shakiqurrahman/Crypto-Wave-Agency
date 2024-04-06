@@ -33,7 +33,7 @@ const AboutUs = () => {
           <div className="mt-8 sm:mt-12">
             <div className="bg-gradient-to-r from-secondary via-current to-primary p-0.5 rounded-[30px] inline-block py-3 hover:bg-gradient-to-l duration-500">
               <Link
-                to="#contact"
+                to="/contact"
                 className="px-5 py-3 sm:py-[11px] bg-main rounded-[30px]"
               >
                 Contact Us

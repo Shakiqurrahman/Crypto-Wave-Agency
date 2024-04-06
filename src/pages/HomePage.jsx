@@ -12,7 +12,6 @@ const HomePage = () => {
         <AboutUs />
         <Services />
         <WhyUs />
-        <ContactUs />
         </>
     );
 };
