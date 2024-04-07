@@ -15,7 +15,7 @@ const ContactUsPage = () => {
         <h2 data-aos='fade-right' data-aos-duration="700" className="text-2xl sm:text-4xl text-center font-bold mb-4 sm:mb-8">
         Reach Out to Our Agency
         </h2>
-        <ContactForgitm />
+        <ContactForm />
         </section>
     );
 };
