@@ -8,7 +8,7 @@ const Header = () => {
     setIsOpen(false);
   };
   return (
-    <header className="fixed backdrop-blur-lg bg-transparent  border-b border-white/5 top-0 z-10 w-full">
+    <header className="fixed backdrop-blur-lg bg-transparent  border-b border-white/5 top-0 z-50 w-full">
       <div className="max-width flex h-16 sm:h-20 w-full justify-between items-center">
         <Link to="/">
           <div className="flex items-center gap-2">

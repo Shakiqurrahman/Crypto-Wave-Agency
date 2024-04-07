@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const ContactForm = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className=" mx-auto max-w-[800px]">
-      <form action="https://formspree.io/f/xjvnpvae" method="post">
+      <form   data-aos='fade-up' data-aos-duration="700" action="https://formspree.io/f/xjvnpvae" method="post">
         <div className="flex flex-col md:flex-row gap-4 mb-4">
           <input
             type="text"

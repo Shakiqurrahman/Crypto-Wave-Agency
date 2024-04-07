@@ -21,8 +21,10 @@ import client12 from '../assets/Work Successfully/12.PNG'
 import client13 from '../assets/Work Successfully/13.PNG'
 
 //Partners Image
-import cexsPartners from '../assets/Cexs Partners.png'
-import Launchpads from '../assets/Launchpads.png'
+import cexsPartners from '../assets/partners/Cexs Partners.png'
+import cexsPartnersPhone from '../assets/partners/Cexs Partner-phone.png'
+import Launchpads from '../assets/partners/Launchpads.png'
+import LaunchpadsPhone from '../assets/partners/Launchpad-phone.png'
 import partner1 from '../assets/Cexs Partner/1.PNG'
 import partner2 from '../assets/Cexs Partner/2.PNG'
 import partner3 from '../assets/Cexs Partner/3.PNG'
@@ -157,12 +159,15 @@ export const partnersData = [
   {
     id : 1,
     title: 'Cexs Partners',
-    img: cexsPartners
+    img: cexsPartners,
+    imgSM : cexsPartnersPhone
   },
   {
     id : 2,
     title: 'Launchpads',
-    img: Launchpads
+    img: Launchpads,
+    imgSM : LaunchpadsPhone
+
   },
 ]
 

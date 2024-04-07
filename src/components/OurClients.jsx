@@ -4,9 +4,9 @@ import { clientsRow1, clientsRow2 } from "../constants/Index";
 
 const OurClients = () => {
   return (
-    <section id="clients-partner" className="pt-20 sm:pt-32 relative">
+    <section id="clients-partner" className="pt-10 sm:pt-32 relative">
       <div className="fade-gradient absolute w-full h-full z-30 "></div>
-      <div className="absolute z-50 flex flex-col justify-center items-center w-full h-full">
+      <div className="absolute z-40 flex flex-col justify-center items-center w-full h-full">
       <h6 className="text-lg sm:text-2xl text-center text-secondary mb-2">
         Our Clients
       </h6>
@@ -20,11 +20,11 @@ const OurClients = () => {
         gradient
         gradientColor="#030014"
         gradientWidth={60}
-        speed={35}
+        speed={33}
       >
         {clientsRow1.map((data) => (
           <img
-            className="size-16 md:size-28 mx-6 md:mx-20 "
+            className="size-14 md:size-28 mx-6 md:mx-20 "
             key={data.id}
             src={data.img}
             alt="clients"
@@ -35,7 +35,7 @@ const OurClients = () => {
         gradient
         gradientColor="#030014"
         gradientWidth={60}
-        speed={35}
+        speed={33}
         direction="right"
         className="mt-20"
       >

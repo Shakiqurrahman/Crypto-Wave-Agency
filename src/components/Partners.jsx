@@ -12,7 +12,7 @@ import { partnersData } from "../constants/Index";
 
 const Partners = () => {
   return (
-    <section className="pt-20 max-width">
+    <section className="pt-10 max-width">
       <h6 className="text-lg sm:text-2xl text-center text-secondary mb-2">
         Partners
       </h6>
@@ -26,7 +26,7 @@ const Partners = () => {
           slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
-          loop={true} 
+          loop={true}
         >
           {partnersData.map((data) => (
             <div key={data.id}>
@@ -35,7 +35,12 @@ const Partners = () => {
                   {data.title}
                 </h2>
                 <div className="p-8 sm:p-16">
-                  <img className="w-full" src={data.img} alt="" />
+                  <img
+                    className="w-full hidden md:block"
+                    src={data.img}
+                    alt=""
+                  />
+                  <img className="w-full md:hidden" src={data.imgSM} alt="" />
                 </div>
               </SwiperSlide>
             </div>
