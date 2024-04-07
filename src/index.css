@@ -26,7 +26,6 @@ body {
   }
 }
 
-
 /* Additonal custom styles  */
 
 .max-width {
@@ -134,4 +133,24 @@ body {
     font-size: 18px;
     padding: 15px 0;
   }
+}
+
+.fade-gradient {
+  background-image : radial-gradient(circle, #030014, #03001443 70%, #03001443)
+}
+
+/* swiper js custom css  */
+.swiper-button-prev,
+.swiper-button-next {
+
+    color:white !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-size: 24px !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: white !important;
 }
