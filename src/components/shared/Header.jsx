@@ -8,7 +8,7 @@ const Header = () => {
     setIsOpen(false);
   };
   return (
-    <header className="fixed backdrop-blur-lg bg-transparent  border-b border-white/5 top-0 z-50 w-full">
+    <header className="max-w-[100%] fixed backdrop-blur-lg bg-transparent  border-b border-white/5 top-0 z-50 w-full">
       <div className="max-width flex h-16 sm:h-20 w-full justify-between items-center">
         <Link to="/">
           <div className="flex items-center gap-2">
@@ -25,14 +25,6 @@ const Header = () => {
               isOpen ? "side-nav" : "nav-links  md:flex gap-x-10 text-[15px]"
             }
           >
-            {/* <NavLink to="/">
-              <li
-                className="hover:text-primary duration-300"
-                onClick={handleClose}
-              >
-                Home
-              </li>
-            </NavLink> */}
             <NavLink to="/#about">
               <li
                 className="md:hover:text-primary duration-300 mt-6 md:mt-0"
