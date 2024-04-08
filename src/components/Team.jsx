@@ -16,10 +16,10 @@ const Team = () => {
     <section id="team" className="pt-20 sm:pt-32 relative">
         <img className="absolute opacity-70 lg:-top-[40%] -top-40 left-0 -z-10" src={leftImg} alt="" />
       <div className="max-width">
-      <h6  data-aos='fade-left' data-aos-duration="600" className="text-lg sm:text-2xl text-center text-secondary mb-2">
+      <h6  data-aos='fade-up' data-aos-duration="600" className="text-lg sm:text-2xl text-center text-secondary mb-2">
         Our Team
       </h6>
-      <h2  data-aos='fade-right' data-aos-duration="600" className="text-2xl sm:text-4xl text-center font-bold mb-4 sm:mb-8">
+      <h2  data-aos='fade-up' data-aos-duration="600" className="text-2xl sm:text-4xl text-center font-bold mb-4 sm:mb-8">
         Meet Our Team
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">

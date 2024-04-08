@@ -12,11 +12,10 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  max-width: 100% ;
+  max-width: 100%;
   overflow-x: hidden;
   background: #030014;
   color: white;
-  margin: 0 !important;
 }
 
 @layer base {

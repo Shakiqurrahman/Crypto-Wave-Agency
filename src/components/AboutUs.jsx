@@ -13,8 +13,8 @@ const AboutUs = () => {
   return (
     <section id="about" className="pt-16 sm:pt-36 relative">
       <img className="absolute opacity-70 top-0 left-0 -z-10" src={leftImg} alt="" />
-      <div className="max-width flex flex-col-reverse md:flex-row items-center justify-center gap-10 sm:gap-6">
-        <div  data-aos='fade-right' data-aos-duration="800" className="w-full">
+      <div  data-aos='fade-up' data-aos-duration="800" className="max-width flex flex-col-reverse md:flex-row items-center justify-center gap-10 sm:gap-6">
+        <div className="w-full">
           <h6 className="text-lg sm:text-2xl text-secondary mb-2">About Us</h6>
           <h2 className="text-2xl sm:text-4xl font-bold mb-4 sm:mb-8">
             Welcome to <span className="text-primary">Crypto Wave</span>
@@ -46,7 +46,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <div data-aos='fade-left' data-aos-duration="800" className="w-full">
+        <div className="w-full">
           <Lottie className="w-4/5 mx-auto" animationData={ImgGIF}/>
         </div>
       </div>
