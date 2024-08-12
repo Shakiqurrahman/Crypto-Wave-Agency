@@ -8,7 +8,7 @@ const ContactForm = () => {
   }, []);
   return (
     <div className=" mx-auto max-w-[800px]">
-      <form  data-aos='fade-up' data-aos-duration="700" method="post" data-netlify='true'>
+      <form  data-aos='fade-up' data-aos-duration="700">
         <div className="flex flex-col md:flex-row gap-4 mb-4">
           <input
             type="text"
