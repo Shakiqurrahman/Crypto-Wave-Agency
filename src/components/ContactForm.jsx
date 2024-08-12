@@ -8,21 +8,21 @@ const ContactForm = () => {
   }, []);
   return (
     <div className=" mx-auto max-w-[800px]">
-      <form   data-aos='fade-up' data-aos-duration="700" action="https://formspree.io/f/xjvnpvae" method="post">
+      <form  data-aos='fade-up' data-aos-duration="700" method="post" data-netlify='true'>
         <div className="flex flex-col md:flex-row gap-4 mb-4">
           <input
             type="text"
             className="bg-[#110c2eb3] px-6 py-3 rounded-lg w-full outline-none placeholder:text-dark/90"
             required
             placeholder="Your Name"
-            name="Name"
+            name="name"
           />
           <input
             type="text"
             className="bg-[#110c2eb3] px-6 py-3 rounded-lg w-full outline-none placeholder:text-dark/90"
             required
             placeholder="Company / Project Name"
-            name="Company / Project Name"
+            name="Company_/Project_Name"
           />
         </div>
         <div className="flex flex-col md:flex-row gap-4 mb-4">
@@ -31,14 +31,14 @@ const ContactForm = () => {
             className="bg-[#110c2eb3] px-6 py-3 rounded-lg w-full outline-none placeholder:text-dark/90"
             required
             placeholder="Your email"
-            name="Email"
+            name="email"
           />
           <input
             type="number"
             className="bg-[#110c2eb3] px-6 py-3 rounded-lg w-full outline-none placeholder:text-dark/90"
             required
             placeholder="Phone Number"
-            name="Phone Number"
+            name="phone number"
           />
         </div>
         <div className="bg-[#110c2eb3] p-8 rounded-lg mb-4">
